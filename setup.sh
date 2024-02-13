@@ -49,12 +49,12 @@ cd ..
 # link the models and the examples to the pip install
 mkdir $VIRTUAL_ENVIRONMENT_NAME/lib/python3.10/site-packages/models
 cd $VIRTUAL_ENVIRONMENT_NAME/lib/python3.10/site-packages/models
-ln -s ../../../../../models/* .
+ln -s ../../../../../$RFdiffusion_name/models/* .
 cd ../../../../../
 
 mkdir $VIRTUAL_ENVIRONMENT_NAME/lib/python3.10/site-packages/examples
 cd $VIRTUAL_ENVIRONMENT_NAME/lib/python3.10/site-packages/examples
-ln -s ../../../../../examples/* .
+ln -s ../../../../../$RFdiffusion_name/examples/* .
 cd ../../../../../
 
 # Run test to see if you successfully installed RFdiffusion
